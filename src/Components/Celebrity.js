@@ -12,10 +12,13 @@ export default function Celebrity(){
         
         <>
         <h1 className="heading">Shop the Celebrity Look</h1>
-
+        <hr/>
+        <div className="all">
         <Carousel showDots={true} responsive={responsive}>
         {celebList}
       </Carousel>
+      </div>
+      <hr/>
         
         </>
     )

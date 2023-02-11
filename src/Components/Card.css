@@ -2,14 +2,14 @@
     margin: 20px 2px 4px 15px;
     /* border: 2px solid red; */
     display: flex;
-    color: #FFF;
+    color: #000000;
     
   }
   .heading{
     text-align: center;
     /* border: 2px solid red; */
-    margin: 8vh;
-    color: #FFF;
+    margin: 4vh 0;
+    color: #000000;
   }
   .men{
     margin-right: 2%;
@@ -18,10 +18,12 @@
     width: 100%;
     height: 16em;
     object-fit: cover;
+    
   }
   
   .card {
-    background-color: black;
+    /* border: 2px solid red; */
+    background-color: rgb(30, 30, 32);
     box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
     max-width: 320px;
     margin: 2rem 1rem;
@@ -32,7 +34,10 @@
 -moz-box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
 box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
   }
-  
+  .all{
+    /* border: 2px solid red; */
+    margin: 1rem;
+  }
   .price {
     /* color: #1C1C1C; */
     font-size: 22px;
@@ -71,7 +76,7 @@ box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
     /* width: 40%; */
     bottom: 0;
     
-    color: #f3f3f3;
+    color: hsl(0, 2%, 88%);
 
   }
   .shopNow{

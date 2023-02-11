@@ -10,9 +10,13 @@ export default function Store(){
     return (
         <>
         <h1 className="heading">Express in stores (Store Details)</h1>
+        <hr/>
+        <div className="all">
         <Carousel showDots={true} responsive={responsive}>
         {storeList}
       </Carousel>
+      </div>
+      <hr/>
         </>
     )
 }

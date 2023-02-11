@@ -25,16 +25,19 @@ export default function Card() {
   return (
     <div className="App">
         <h1 className="heading">Most Loved This Week</h1>
+        <hr/>
         <div className="des">
             <h2 className={men===true?"men collection active":"men collection"} onClick={()=>{setmen(true)
             }}>Men</h2>
             <h2 className={men===false?"women collection active":"women collection"} onClick={()=>{setmen(false)
             }}>Women</h2>
       </div>
-      
+      <div className="all">
       <Carousel showDots={true} responsive={responsive}>
         {men===true?productW:productM}
       </Carousel>
+      </div>
+      <hr/>
 
     </div>
   );

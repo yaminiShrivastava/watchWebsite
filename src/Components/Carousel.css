@@ -35,7 +35,7 @@ transform: scale(.9);
 transition: 0.5s ease-in-out ;
 }
 img{
-    height: 500px;
+    height: 90vh;
     width: 100vw;
     object-fit: cover;
 }
@@ -44,28 +44,9 @@ img{
     transform: scale(1);
     pointer-events: visible;
 }
-/* .carousel_arrow_left,.carousel_arrow_right{
-    position: absolute;
-    font-size: 40px;
-    top: 50%;
-    transform: translate(0,-50%);
-    background-color: gainsboro;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    padding-bottom: 7px;
-    cursor: pointer;
-} */
-/* .carousel_arrow_left{
-    left: 2%;
-}
-.carousel_arrow_right{
-    right: 2%;
-} */
+
 .carousel_pagination{
+    /* border: 2px solid green; */
     position: absolute;
     bottom: 0;
     left: 50%;
