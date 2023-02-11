@@ -1,13 +1,9 @@
 import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { GrClose } from "react-icons/gr";
 import { useState } from "react";
-import { FaFacebookF } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
-// import { IconName } from "react-icons/tfi";
 const Navbar = () => {
   const [hamb, sethamb] = useState(false);
-  const style = { color: "red", fontSize: "1.5em" };
   return (
     <>
       <header>
@@ -85,7 +81,7 @@ const Navbar = () => {
 
           <div className="hmenu text-light" onClick={() => sethamb(!hamb)}>
             <div className="text-light ab">
-              {hamb == false ? <GiHamburgerMenu /> : <AiOutlineClose />}
+              {hamb === false ? <GiHamburgerMenu /> : <AiOutlineClose />}
             </div>
           </div>
         </div>
