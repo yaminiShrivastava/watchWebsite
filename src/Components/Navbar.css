@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
 }
+.nbr{
+  -webkit-box-shadow: -4px 15px 37px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -4px 15px 37px -6px rgba(0,0,0,0.75);
+  box-shadow: -4px 15px 37px -6px rgba(0,0,0,0.75);
+}
 .upper_header {
   /* border : 1px solid yellow; */
   height: 6vh;

@@ -6,7 +6,7 @@ const Navbar = () => {
   const [hamb, sethamb] = useState(false);
   return (
     <>
-      <header className="sticky-top">
+      <header className="sticky-top nbr">
         <div className="upper_header">
           <ul className="login_signup">
             <li className="compo border-end">
