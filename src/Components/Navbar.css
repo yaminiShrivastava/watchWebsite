@@ -25,7 +25,11 @@
   /* border-left: 1px solid #FFFF; */
 }
 .main_header {
+  
+  /* overflow: hidden; */
+  position: sticky;
   height: 4rem;
+  /* border:2px solid red; */
   background-color: #191919;
   color: white;
   display: grid;
