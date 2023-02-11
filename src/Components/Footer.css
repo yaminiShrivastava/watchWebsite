@@ -1,0 +1,14 @@
+.btn-link{
+    border-radius: 100px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.btn-link:hover{
+    background-color: #c1c1c1;
+}
+.footer{
+    
+    position: absolute; 
+     width: 100%;
+}

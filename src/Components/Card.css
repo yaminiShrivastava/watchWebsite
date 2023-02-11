@@ -1,0 +1,95 @@
+  .des{
+    margin: 20px 2px 4px 15px;
+    /* border: 2px solid red; */
+    display: flex;
+    color: #FFF;
+    
+  }
+  .heading{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin: 8vh;
+    color: #FFF;
+  }
+  .men{
+    margin-right: 2%;
+  }
+  .image {
+    width: 100%;
+    height: 16em;
+    object-fit: cover;
+  }
+  
+  .card {
+    background-color: black;
+    box-shadow: 0 4px 8px 3px rgba(0, 0, 0, 0.2);
+    max-width: 320px;
+    margin: 2rem 1rem;
+    color: white;
+    text-align: center;
+    font-family: arial;
+    -webkit-box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
+-moz-box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
+box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
+  }
+  
+  .price {
+    /* color: #1C1C1C; */
+    font-size: 22px;
+  }
+  
+  .card .btn {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: #FFF;
+    background-color: rgb(35, 34, 34);
+    text-align: center;
+    cursor: pointer;
+    /* width: 80%; */
+    font-size: 18px;
+    /* border-radius: 20px; */
+    
+    -webkit-box-shadow: 1px 2px 18px 1px rgba(40, 39, 39, 0.52);
+-moz-box-shadow: 1px 2px 18px 1px rgba(40, 39, 39, 0.52);
+box-shadow: 1px 2px 18px 1px rgba(40, 39, 39, 0.52);
+  }
+  
+  .card button:hover {
+    background-color: rgb(54, 53, 53);
+    color: #FFFF;
+    
+    -webkit-box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
+-moz-box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
+box-shadow: 1px 2px 18px 1px rgba(0,0,0,0.52);
+  }
+  .gender{
+    /* border: 2px solid red; */
+    font-size: 1.5rem;
+    position: absolute;
+    left: 5%;
+    /* width: 40%; */
+    bottom: 0;
+    
+    color: #f3f3f3;
+
+  }
+  .shopNow{
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -7%;
+    height: 10vh;
+    width: 10vh;
+    right: -18px;
+  }
+  .collection{
+    transition: 0.3s ease-in-out;
+    
+  }
+  .collection:hover{
+    color: grey;
+  }
+  
